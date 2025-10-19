@@ -32,7 +32,7 @@ $lang = preg_replace('/[^\w\n]/', '', $lang);
         <a href="./cards" class="btn">Click here</a>
         <a href="./test" class="btn">Don't click</a>
 
-        <form method="POST" action="">
+        <form method="POST" action="" id="langForm>
             <label for="lang">Select Language:</label>
             <select name="lang" id="lang">
                 <option value="en" <?php if ($lang == 'en') echo 'selected'; ?>>English</option>
