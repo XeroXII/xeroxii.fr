@@ -1,0 +1,40 @@
+
+body {
+    background: #181a1b;
+    color: #f1f1f1;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.tab-bar {
+    display: flex;
+    background: #23272a;
+    border-bottom: 1px solid #333;
+}
+
+.tab-button {
+    flex: 1;
+    padding: 16px 0;
+    text-align: center;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #f1f1f1;
+    font-size: 1.1em;
+    transition: background 0.2s;
+}
+
+.tab-button.active, .tab-button:hover {
+    background: #2c2f33;
+    color: #00bfff;
+}
+
+.tab-content {
+    padding: 32px;
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
