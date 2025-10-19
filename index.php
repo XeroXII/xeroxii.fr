@@ -28,7 +28,8 @@ $lang = preg_replace('/[^\w\n]/', '', $lang);
         <p><?php
             echo "Hello, World!";
         ?></p>
-        <a href="./test" class="btn">Click here</a>
+        <a href="./cards" class="btn">Click here</a>
+        <a href="./test" class="btn">Don't click</a>
 
         <form method="POST" action="">
             <label for="lang">Select Language:</label>
