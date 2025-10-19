@@ -36,6 +36,7 @@ $lang = preg_replace('/[^\w\n]/', '', $lang);
                 <option value="en" <?php if ($lang == 'en') echo 'selected'; ?>>English</option>
                 <option value="es" <?php if ($lang == 'es') echo 'selected'; ?>>Spanish</option>
                 <option value="fr" <?php if ($lang == 'fr') echo 'selected'; ?>>French</option>
+                <option value="de" <?php if ($lang == 'de') echo 'selected'; ?>>German</option>
             </select>
             <input type="submit" value="Change Language">
         </form>
